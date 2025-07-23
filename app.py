@@ -41,3 +41,4 @@ if uploaded_file is not None:
     st.subheader("Prediction")
     st.write(f"**Class:** {predicted_class}")
     st.write(f"**Confidence:** {confidence:.2f}%")
+    
